@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Learning Intents</string>
+    <string name="hello_intents">Hello Intents!</string>
+</resources>
