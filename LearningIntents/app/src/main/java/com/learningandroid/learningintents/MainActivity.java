@@ -22,9 +22,6 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //TODO : start another activity for result
-        //TODO : Exchange data
-
         //TODO : start a service
         //TODO : start a bounded service
         //TODO : deliver a broadcast
