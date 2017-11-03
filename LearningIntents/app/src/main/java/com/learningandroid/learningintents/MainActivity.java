@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity
         //TODO : start a bounded service
         //TODO : deliver a broadcast
         //TODO : pending intent
+        //TODO : allowing other apps to start ur activity
+        //TODO : using ShareCompat (IntentBuilder and IntentReader)
 
         btnStartActivity = this.findViewById(R.id.btn_start_activity);
         btnStartActivityForResult = this.findViewById(R.id.btn_start_activity_for_result);
