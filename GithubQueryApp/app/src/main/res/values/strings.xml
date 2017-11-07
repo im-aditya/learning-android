@@ -3,4 +3,5 @@
     <string name="enter_query_text">Enter query text</string>
     <string name="query_results_label">Query Results:</string>
     <string name="result_goes_here_label">Result goes here..</string>
+    <string name="menu_search_label">Search</string>
 </resources>
