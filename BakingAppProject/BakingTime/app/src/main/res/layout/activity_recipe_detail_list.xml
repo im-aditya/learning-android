@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp"
+              android:tag="mobile_layout"
+              tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="0"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_back_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/arrow_back"
+            android:background="@android:color/transparent"
+            android:contentDescription="Back"/>
+
+        <TextView
+            android:id="@+id/tv_recipe_name"
+            fontPath="fonts/Montserrat-Regular.otf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            tools:text="Recipe Name"/>
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/fragment_recipe_detail_list"
+        android:name="com.bt.bakingtime.activities.recipedetaillist.RecipeDetailListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_recipe_detail_list"/>
+
+</LinearLayout>
