@@ -1,8 +1,5 @@
 ## Sunshine (Weather App)
-<img src="https://github.com/im-aditya/learning-android/blob/master/Sunshine/homescreen.png" height="400">
-<img src="https://github.com/im-aditya/learning-android/blob/master/Sunshine/homescreen-2.png" height="400">
-<img src="https://github.com/im-aditya/learning-android/blob/master/Sunshine/detailscreen.png" height="400">
-<img src="https://github.com/im-aditya/learning-android/blob/master/Sunshine/settingsscreen.png" height="400">
+<img src="https://github.com/im-aditya/learning-android/blob/master/Sunshine/homescreen.png" height="350"> <img src="https://github.com/im-aditya/learning-android/blob/master/Sunshine/homescreen-2.png" height="350"> <img src="https://github.com/im-aditya/learning-android/blob/master/Sunshine/detailscreen.png" height="350"> <img src="https://github.com/im-aditya/learning-android/blob/master/Sunshine/settingsscreen.png" height="350">
 
 Sunshine is a basic weather app that uses the Open Weather API to provide users with a 10 day forecast of the weather at their chosen location.
 
