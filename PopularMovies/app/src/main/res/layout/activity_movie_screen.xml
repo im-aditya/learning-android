@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_movie_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentTop="true"
+    android:padding="10dp"
+    tools:context="com.popularmovies.popularmovies.moviescreen.MovieScreenActivity">
+
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_margin="0dp"
+        android:layout_marginRight="0dp"
+        android:adjustViewBounds="false"
+        />
+
+    <TextView
+        android:id="@+id/movie_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/movie_poster"
+        android:paddingLeft="10dp"
+        android:textSize="@dimen/text_size_movie_title"
+        tools:text="Some movie name"/>
+
+    <TextView
+        android:id="@+id/user_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/movie_name"
+        android:layout_below="@id/movie_name"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="@dimen/text_size_sub_text"
+        tools:text="User Rating: 7.8"/>
+
+    <TextView
+        android:id="@+id/release_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/movie_name"
+        android:layout_below="@+id/user_rating"
+        android:paddingLeft="10dp"
+        android:textSize="@dimen/text_size_sub_text"
+        tools:text="Release date: 16-07-2016"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movie_poster"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/movie_plot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_sub_text"
+            tools:text="Plot of the movie goes here."/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#666666"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_movie_title"
+            android:paddingTop="5dp"
+            android:paddingBottom="15dp"
+            android:text="Trailers"/>
+
+        <ListView
+            android:id="@+id/listview_trailer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_movie_title"
+            android:paddingTop="5dp"
+            android:paddingBottom="15dp"
+            android:text="Reviews"/>
+
+        <ListView
+            android:id="@+id/listview_reviews"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</RelativeLayout>

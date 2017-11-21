@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pop Movies</string>
+    <string name="sort_by">Sort By</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="favorite_menu">Add to favorites</string>
+    <string name="favorite_movies">Favorite Movies</string>
+
+    <string name="movie_screen_name">Movie Details</string>
+    <string name="user_rating">User rating: %1$s</string>
+    <string name="release_date">Release Date: %1$s</string>
+    <string name="author_prefix">By %1$s</string>
+</resources>
