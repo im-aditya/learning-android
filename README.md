@@ -1,2 +1,2 @@
 # learning-android
-A series of android apps to learn android.
+A series of tiny android apps to learn android concepts.
