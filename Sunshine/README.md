@@ -1,5 +1,16 @@
 ## Sunshine (Weather App)
+![HomeScreen](homescreen.png)
+
+![HomeScreen-2](homescreen-2.png)
+
+![DetailScreen](detailscreen.png)
+
+![SettingsScreen](settingsscreen.png)
+
+
+
 Sunshine is a basic weather app that uses the Open Weather API to provide users with a 10 day forecast of the weather at their chosen location.
+
 - This app is built during Udacity's Nanodegree course.
 - As such it is NOT intended for actual/commercial use.
 - It covers the use of :
